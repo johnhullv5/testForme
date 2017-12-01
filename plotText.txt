@@ -1,0 +1,5 @@
+Paint paint = new Paint(); 
+canvas.drawPaint(paint); 
+paint.setColor(Color.BLACK); 
+paint.setTextSize(16); 
+canvas.drawText("My Text", x, y, paint); 
